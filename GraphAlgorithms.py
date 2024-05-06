@@ -3,7 +3,7 @@ from random import randint
 from math import *
 
 
-def does_array_equal(arr1, arr2):
+def does_array_equal(aRr1, arr2):
     if len(arr1) != len(arr2):
         return False
     for i in range(len(arr1)):
